@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSP_API", "..\GSP_API\GSP_API\GSP_API.csproj", "{E1D3A29A-1C79-4E5E-B829-A70C0C1D860D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP_APP", "..\ASP_APP\ASP_APP\ASP_APP.csproj", "{705A782A-9EB4-4815-9B46-E57D636AB343}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEP.GSP.Business", "WEP.GSP.Business\WEP.GSP.Business.csproj", "{1D5A14F9-C94C-410B-B842-1A1B1D271D92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEP.GSP.Data", "WEP.GSP.Data\WEP.GSP.Data.csproj", "{6F3C47BB-D3B0-4AF5-9D27-CE8F4CD842BA}"
@@ -60,14 +56,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1D3A29A-1C79-4E5E-B829-A70C0C1D860D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1D3A29A-1C79-4E5E-B829-A70C0C1D860D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1D3A29A-1C79-4E5E-B829-A70C0C1D860D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1D3A29A-1C79-4E5E-B829-A70C0C1D860D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{705A782A-9EB4-4815-9B46-E57D636AB343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{705A782A-9EB4-4815-9B46-E57D636AB343}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{705A782A-9EB4-4815-9B46-E57D636AB343}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{705A782A-9EB4-4815-9B46-E57D636AB343}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D5A14F9-C94C-410B-B842-1A1B1D271D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D5A14F9-C94C-410B-B842-1A1B1D271D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D5A14F9-C94C-410B-B842-1A1B1D271D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -158,80 +146,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 24
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://192.168.30.12:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ..\\ASP_APP\\ASP_APP\\ASP_APP.csproj
-		SccProjectName1 = ../ASP_APP/ASP_APP
-		SccLocalPath1 = ..\\ASP_APP\\ASP_APP
-		SccProjectUniqueName2 = ..\\GSP_API\\GSP_API\\GSP_API.csproj
-		SccProjectName2 = ../GSP_API/GSP_API
-		SccLocalPath2 = ..\\GSP_API\\GSP_API
-		SccProjectUniqueName3 = WEP.GSP.Business\\WEP.GSP.Business.csproj
-		SccProjectName3 = WEP.GSP.Business
-		SccLocalPath3 = WEP.GSP.Business
-		SccProjectUniqueName4 = WEP.GSP.Data\\WEP.GSP.Data.csproj
-		SccProjectName4 = WEP.GSP.Data
-		SccLocalPath4 = WEP.GSP.Data
-		SccProjectUniqueName5 = WEP.GSP.Document\\WEP.GSP.Document.csproj
-		SccProjectName5 = WEP.GSP.Document
-		SccLocalPath5 = WEP.GSP.Document
-		SccProjectUniqueName6 = WEP.GSP.EventHub.Queue\\WEP.GSP.Queue.csproj
-		SccProjectName6 = WEP.GSP.EventHub.Queue
-		SccLocalPath6 = WEP.GSP.EventHub.Queue
-		SccProjectUniqueName7 = WEP.GSP.GSTN\\WEP.GSP.GSTN.csproj
-		SccProjectName7 = WEP.GSP.GSTN
-		SccLocalPath7 = WEP.GSP.GSTN
-		SccProjectUniqueName8 = WEP.GSP.Auth\\WEP.GSP.Auth.csproj
-		SccProjectName8 = WEP.GSP.Auth
-		SccLocalPath8 = WEP.GSP.Auth
-		SccProjectUniqueName9 = WEP.GSP.CacheManager\\WEP.GSP.CacheManager.csproj
-		SccProjectName9 = WEP.GSP.CacheManager
-		SccLocalPath9 = WEP.GSP.CacheManager
-		SccProjectUniqueName10 = WEP.GSP.ServiceCall\\WEP.GSP.ServiceCall.csproj
-		SccProjectName10 = WEP.GSP.ServiceCall
-		SccLocalPath10 = WEP.GSP.ServiceCall
-		SccProjectUniqueName11 = GSP.Load.Test\\GSP.Load.Test.csproj
-		SccProjectName11 = GSP.Load.Test
-		SccLocalPath11 = GSP.Load.Test
-		SccProjectUniqueName12 = GSTN.EventHub.Receiver\\GSTN.EventHub.Receiver.csproj
-		SccProjectName12 = GSTN.EventHub.Receiver
-		SccLocalPath12 = GSTN.EventHub.Receiver
-		SccProjectUniqueName13 = WEP.GSP.Service.Blob\\WEP.GSP.Service.Storage.csproj
-		SccProjectName13 = WEP.GSP.Service.Blob
-		SccLocalPath13 = WEP.GSP.Service.Blob
-		SccProjectUniqueName14 = WEP.GSP.RestAPI\\WEP.GSP.RestAPI.csproj
-		SccProjectName14 = WEP.GSP.RestAPI
-		SccLocalPath14 = WEP.GSP.RestAPI
-		SccProjectUniqueName15 = WEP.GSP.WindowsServices\\WEP.GSP.WindowsServices.csproj
-		SccProjectName15 = WEP.GSP.WindowsServices
-		SccLocalPath15 = WEP.GSP.WindowsServices
-		SccProjectUniqueName16 = WEP.Utility\\WEP.Utility.csproj
-		SccProjectName16 = WEP.Utility
-		SccLocalPath16 = WEP.Utility
-		SccProjectUniqueName17 = WEP.GSP.Receiver\\WEP.GSP.Receiver.csproj
-		SccProjectName17 = WEP.GSP.Receiver
-		SccLocalPath17 = WEP.GSP.Receiver
-		SccProjectUniqueName18 = WEP.GSP.WindowsServicesA1\\WEP.GSP.WindowsServicesA1.csproj
-		SccProjectName18 = WEP.GSP.WindowsServicesA1
-		SccLocalPath18 = WEP.GSP.WindowsServicesA1
-		SccProjectUniqueName19 = WEP.GSP.ServiceBus.RestAPI\\WEP.GSP.ServiceBus.RestAPI.csproj
-		SccProjectName19 = WEP.GSP.ServiceBus.RestAPI
-		SccLocalPath19 = WEP.GSP.ServiceBus.RestAPI
-		SccProjectUniqueName20 = WEP.GSP.ServiceBus.WindowsServices\\WEP.GSP.ServiceBus.WindowsServices.csproj
-		SccProjectName20 = WEP.GSP.ServiceBus.WindowsServices
-		SccLocalPath20 = WEP.GSP.ServiceBus.WindowsServices
-		SccProjectUniqueName21 = Blob.Utility\\Blob.Utility.csproj
-		SccProjectName21 = Blob.Utility
-		SccLocalPath21 = Blob.Utility
-		SccProjectUniqueName22 = WEP.GSP.ServiceBus2.Receiver\\WEP.GSP.ServiceBus2.Receiver.csproj
-		SccProjectName22 = WEP.GSP.ServiceBus2.Receiver
-		SccLocalPath22 = WEP.GSP.ServiceBus2.Receiver
-		SccProjectUniqueName23 = GSTN.Production.Test\\GSTN.Production.Test.csproj
-		SccProjectName23 = GSTN.Production.Test
-		SccLocalPath23 = GSTN.Production.Test
 	EndGlobalSection
 EndGlobal
