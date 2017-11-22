@@ -215,7 +215,7 @@ namespace WEP.GSP.ServiceBus.RestAPI.Controllers
                 //query["expires"] = expires;
 
                 //uriBuilder.Query = query.ToString();
-                //url = uriBuilder.ToString();
+                //url = uriBuilder.ToString();;
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(names);
                 HttpWebResponse resp = (HttpWebResponse)request.GetResponse();
