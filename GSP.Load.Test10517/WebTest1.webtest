@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="28de318c-f123-428d-90ce-6d327b4c2a3d" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+  <Items>
+    <Request Method="POST" Guid="bba0c2a8-3f90-459e-962a-8a9fef30cb00" Version="1.1" Url="http://localhost:4816/GSTR1Service.svc/SaveGSTR1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json" />
+        <Header Name="clientid" Value="l7xxdf2b47b7d728426699a05c8d1ec33a60" />
+        <Header Name="username" Value="Wep" />
+        <Header Name="client-secret" Value="30a28162eb024f6e859a12bbb9c31725" />
+        <Header Name="state-cd" Value="11" />
+        <Header Name="Accept" Value="application/json" />
+        <Header Name="txn" Value="returns" />
+        <Header Name="auth-token" Value="8a227e0ba56042a0acdf98b3477d2c03" />
+        <Header Name="ip-usr" Value="12.8.9l.80" />
+      </Headers>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+  </Items>
+</WebTest>

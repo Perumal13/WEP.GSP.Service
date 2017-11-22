@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WEP.GSP.Service.GSTR1Service" CodeBehind="GSTR1Service.svc.cs" %>
